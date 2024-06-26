@@ -1,0 +1,21 @@
+#noteDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.note{
+    background: #fafafa;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0.2px 0.2px 1px black;
+    outline: none !important;
+    border: none !important;
+    display: grid;
+}
+
+.end{
+    justify-self: flex-end;
+}
