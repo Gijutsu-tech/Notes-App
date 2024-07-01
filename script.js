@@ -70,7 +70,7 @@ noteDiv.addEventListener("click", function (e) {
         let deleteDelText = initialCopyText.replace("Delete","");
         let deleteCopyText = deleteDelText.replace("Copy","");
         navigator.clipboard.writeText(deleteCopyText);
-        alert("Copied to cipboard!");
+        alert("Copied to clipboard!");
     };
 });
 
