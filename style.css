@@ -14,8 +14,11 @@
     outline: none !important;
     border: none !important;
     display: grid;
+    grid-template-rows: max-content max-content max-content;
+    transition: all .3s ease;
 }
 
 .end{
     justify-self: flex-end;
+    /* height: fit-content !important; */
 }
